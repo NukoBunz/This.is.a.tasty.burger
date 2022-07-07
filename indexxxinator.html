@@ -1,0 +1,212 @@
+<html>
+<head>
+    <title>Twilight's HTML</title>
+<head>
+<html>
+    <head></head>
+<body style="background-color:#080a0b" >  
+
+</body> 
+</html>
+
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+ 
+<style>
+img:hover {
+filter: saturate(0%);
+cursor:help;
+}
+ 
+#musicplayer{
+display:grid;
+grid-template-columns:30px auto;
+align-items:center;
+width: 200px;
+color: #FF77AD;
+font-size:20px;
+line-height:140%;
+background: #940000;
+border: 1px solid #ff77ad;
+filter: drop-shadow(0px 1px #00000030) drop-shadow(0 -1px #00000030) drop-shadow(1px 0 #00000030) drop-shadow(-1px 0 #00000030);
+ 
+}
+ 
+#musictitle{
+font-weight: bold;
+font-family:times;
+-webkit-text-stroke: 1px white;
+background: #940000;
+overflow: hidden;
+white-space: nowrap;
+display:inline-block;
+width: calc(100% - 10px - 1px);
+margin-left: calc(10px + 1px);
+}
+ 
+#musicpixel{
+width:100%;
+padding:5px;
+position:relative;
+min-height: 20px;
+min-width: 20px;
+background: #940000;
+border-right: 1px solid #ff77ad;
+}
+ 
+.overlay {
+opacity:0;
+position:absolute;
+top:0;
+left:0;
+text-align:center;
+width:100%;
+height:100%;
+transition:0.3s ease;
+ 
+background: #940000;
+}
+ 
+#musicplayer:hover .overlay {
+opacity: 1;
+transition:0.3s ease;
+}
+ 
+.playpause{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-40%, -50%);
+}
+ 
+.playpause:hover{
+cursor:help;
+}
+ 
+#musicpixel img{
+display:block;
+}
+ 
+.marquee{
+display: inline-block;
+padding-left: 100%;
+animation: marquee 8s linear infinite;
+}
+ 
+@keyframes marquee{
+0% {
+transform: translate(0, 0);
+}
+100% {
+transform: translate(-100%, 0);
+}
+}
+ 
+</style>
+ 
+<div id='musicplayer'>
+<div id='musicpixel'>
+<img src='https://cdn.discordapp.com/attachments/804937299702841415/897999803869450240/8341c674.gif'>
+<div class='overlay'>
+<div class='playpause'><i class="fas fa-play"></i></div>
+</div>
+</div>
+<div id='musictitle'>
+<span class='marquee'>NOW PLAYING. . . . . ZZz-GHOST BY MACHINE GIRL_zZZ . . .</span>
+</div>
+</div>
+ 
+<audio id='musicsrc' loop src='Ghost_(getmp3.pro).mp3'></audio>
+ 
+<script>
+document.querySelector('.playpause').addEventListener('click', playpause);
+ 
+function playpause(){
+if(document.querySelector('.playpause').innerHTML == '<i class="fas fa-play"></i>'){
+document.querySelector('#musicsrc').play();
+document.querySelector('.playpause').innerHTML = '<i class="fas fa-pause"></i>';
+} else{
+document.querySelector('#musicsrc').pause();
+document.querySelector('.playpause').innerHTML = '<i class="fas fa-play"></i>';
+}
+ 
+}
+</script>
+ 
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script>
+$( function() {
+$( "#musicplayer" ).draggable();
+} );
+</script>
+    
+
+<center><html>
+<head>
+</head>
+<body>
+<img src="giphy.gif">
+</body>
+</html>
+    </center>
+
+<html>
+<head>
+</head>
+<body> 
+<img src="dancing-susie.gif">
+</body>
+</html>   
+     <html>
+<head>
+<center><html>
+<head>
+</head>
+<body>
+<img src="6ecd9213.gif">
+</body>
+</html>
+    </center>
+   
+<html>
+<head>
+
+    <html>
+<center><head>
+<html>
+<head>
+</head>
+<body>
+<img src="5f5b94b0.gif">
+    </body></center>
+</html>
+    
+<html>
+<head>
+    
+     <html>
+<head>
+<center><html>
+<head>
+</head>
+<body>
+<img src="6ecd9213.gif">
+</body>
+</html>
+    </center>
+<html>
+<head>   
+  <center><div style="width:289px;height:189px;line-height:3em;overflow:scroll;padding:5px;background-color:#FCFADD;color:#714D03;border:4px double #DEBB07;">Yo I'm Nuko.
+      Black + Jamaican__
+      Digital and Traditional "artist"
+      she/her + neos
+ <p>
+     <a href="https://twitter.com/Nuko_Bunz">TWITTER</a>
+      </p>     
+      <p> <a href="puppycatgalaxytik@gmail.com">EMAIL,</a>
+      </div></center>
+  
